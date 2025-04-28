@@ -8,16 +8,24 @@ The Airbnb Clone Project is a full-stack web application designed to replicate t
 **Project Goals
 
  -Understand and implement complex system architectures
+ 
  -Design and manage efficient databases
+ 
  -Develop secure and scalable APIs
+ 
  -Practice collaborative development and workflow management
 
 **Tech Stack
 
  -Programming Languages: Python, JavaScript
+ 
  -Backend: Flask, RESTful APIs
+ 
  -Frontend: HTML, CSS, JavaScript
+ 
  -Database: MySQL
+ 
  -DevOps: Docker, Continuous Integration tools
+ 
  -Version Control: Git, GitHub
 
