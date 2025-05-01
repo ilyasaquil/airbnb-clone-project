@@ -64,3 +64,15 @@ It covers backend systems, relational database design, API development, and depl
 - **Bookings** link guests to specific **Properties**.
 - **Reviews** are tied to guests and listings.
 - **Payments** correspond to bookings by users.
+
+## Feature Breakdown
+### User Management
+- Secure login, registration, and profile handling with role-based access control (guest or host).
+### Property Management
+- Hosts can create and manage listings with details like location, pricing, and availability.
+### Booking System
+- Guests can browse and reserve properties with real-time availability validation.
+### Review and Rating System
+- Guests submit ratings and comments after their stay, fostering platform trust.
+### Payment Processing
+- Secure financial transactions, including bookings and refunds, with end-to-end encryption.
