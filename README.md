@@ -34,3 +34,33 @@ It covers backend systems, relational database design, API development, and depl
 - **GraphQL** – Flexible and efficient query language.
 - **Docker** – Environment consistency through containerization.
 - **GitHub Actions** – CI/CD automation for builds, tests, and deployments.
+
+## Database Design
+### Users
+- `id`: Unique user ID  
+- `name`, `email`: Identity and communication  
+- `password_hash`: Secure credentials  
+- `role`: `host` or `guest`
+
+### Properties
+- `id`, `owner_id`: Linked to hosting user  
+- `title`, `description`, `location`: Listing details
+
+### Bookings
+- `id`, `property_id`, `user_id`: Booking metadata  
+- `start_date`, `end_date`: Stay duration
+
+### Reviews
+- `id`, `property_id`, `user_id`: Review linkage  
+- `rating`, `comment`: Guest feedback
+
+### Payments
+- `id`, `user_id`, `booking_id`: Payment source  
+- `amount`, `payment_status`: Transaction details
+
+### Entity Relationships
+- A **User** (host) can list multiple **Properties**.
+- A **User** (guest) can make multiple **Bookings**.
+- **Bookings** link guests to specific **Properties**.
+- **Reviews** are tied to guests and listings.
+- **Payments** correspond to bookings by users.
