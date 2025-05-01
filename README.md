@@ -8,13 +8,10 @@ The Airbnb Clone Project is a full-stack web application designed to replicate t
 
 ## Project Goals
 
- -Understand and implement complex system architectures
-
- -Design and manage efficient databases
- 
- -Develop secure and scalable APIs
- 
- -Practice collaborative development and workflow management
+ - [Understand and implement complex system architectures]
+ - [Design and manage efficient databases]
+ - [Develop secure and scalable APIs]
+ - [Practice collaborative development and workflow management]
  
 
 ## Tech Stack
