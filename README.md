@@ -94,3 +94,12 @@ It covers backend systems, relational database design, API development, and depl
 - Defends against SQL injection, XSS, and other threats by ensuring clean inputs.
 ### Security Importance
 - Robust security is critical for protecting user data, ensuring reliable service, and building platform trust.  
+
+## CI/CD Pipeline
+A modern CI/CD pipeline accelerates development and minimizes bugs through automation.
+- Frequent integration reduces merge conflicts.
+- Automated testing ensures code quality.
+- Deployment automation prevents manual errors.
+**Tools:**  
+- **GitHub Actions**: Automates workflows.  
+- **Docker**: Ensures uniform environments.
