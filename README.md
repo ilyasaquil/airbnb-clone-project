@@ -76,3 +76,21 @@ It covers backend systems, relational database design, API development, and depl
 - Guests submit ratings and comments after their stay, fostering platform trust.
 ### Payment Processing
 - Secure financial transactions, including bookings and refunds, with end-to-end encryption.
+### API Security
+- Authentication, authorization, input validation, and rate limiting protect platform integrity.
+### CI/CD Integration
+- Automated pipelines streamline code testing, building, and deploying via GitHub Actions and Docker.
+
+## API Security
+### Authentication
+- Verifies user identities and grants access to protected routes.
+### Authorization
+- Enforces permissions, restricting access to specific resources and actions.
+### Rate Limiting
+- Prevents abuse by capping API requests per user/IP over time.
+### Data Encryption
+- Secures data in transit using HTTPS.
+### Input Validation and Sanitization
+- Defends against SQL injection, XSS, and other threats by ensuring clean inputs.
+### Security Importance
+- Robust security is critical for protecting user data, ensuring reliable service, and building platform trust.  
