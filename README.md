@@ -27,3 +27,10 @@ It covers backend systems, relational database design, API development, and depl
 - Coordinates team activities, sets goals and milestones, assigns tasks, and ensures timely delivery of project objectives.
 ### QA Engineer
 - Ensures application quality through test planning, execution, bug tracking, and validation of functional requirements.
+
+## Technology Stack
+- **Django** – Backend framework for scalable API development.
+- **MySQL** – Relational database system.
+- **GraphQL** – Flexible and efficient query language.
+- **Docker** – Environment consistency through containerization.
+- **GitHub Actions** – CI/CD automation for builds, tests, and deployments.
